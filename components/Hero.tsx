@@ -1,7 +1,11 @@
+import AnimationCanvas from './AnimationCanvas';
+
 export default function Hero() {
     return (
-        <section className="relative min-h-screen flex flex-col justify-end px-6 md:px-12 pb-24 z-10">
-            <div className="max-w-[1400px]">
+        <section className="relative min-h-screen flex flex-col justify-end px-6 md:px-12 pb-24 z-10 overflow-hidden">
+            <AnimationCanvas />
+
+            <div className="max-w-[1400px] z-10 relative">
                 <div className="reveal-mask">
                     <h1 id="hero-title" className="heading-xl">framework</h1>
                 </div>
