@@ -15,7 +15,7 @@ export default function Footer() {
             <footer className="py-12 px-6 md:px-12 z-10 relative bg-surface">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8 md:gap-12">
                     <div className="mono text-[10px] uppercase tracking-widest opacity-30 text-center md:text-left">
-                        &copy; 2024 Zyloris Project // CC BY-NC-SA 4.0
+                        &copy; 2025 Zyloris Project // CC BY-NC-SA 4.0
                     </div>
                     <div className="flex gap-6 md:gap-12 mono text-[10px] uppercase tracking-widest opacity-40">
                         <a href="#" className="hover:text-white transition">Whitepaper</a>
