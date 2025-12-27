@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Navbar() {
     return (
         <nav className="fixed top-0 w-full z-50 mix-blend-difference px-6 py-8 flex justify-between items-center bg-black/50 backdrop-blur-sm md:bg-transparent md:backdrop-blur-0">
@@ -9,9 +11,9 @@ export default function Navbar() {
                 </div>
             </div>
             <div className="flex gap-4 md:gap-8 mono text-[10px] uppercase tracking-[0.2em] font-medium items-center">
-                <a href="#foundations" className="hidden md:block hover:text-blue-400 transition">Foundations</a>
-                <a href="#infrastructure" className="hidden md:block hover:text-blue-400 transition">Infrastructure</a>
-                <a href="#" className="px-4 py-2 border border-white/10 hover:bg-white hover:text-black transition">Contribute</a>
+                <Link href="/#foundations" className="hidden md:block hover:text-blue-400 transition">Foundations</Link>
+                <Link href="/#infrastructure" className="hidden md:block hover:text-blue-400 transition">Infrastructure</Link>
+                <Link href="/contribute" className="px-4 py-2 border border-white/10 hover:bg-white hover:text-black transition">Contribute</Link>
             </div>
         </nav>
     );
