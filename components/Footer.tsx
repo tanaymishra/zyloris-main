@@ -22,7 +22,8 @@ export default function Footer() {
                     <div className="flex gap-6 md:gap-12 mono text-[10px] uppercase tracking-widest opacity-40">
                         <Link href="/internships" className="hover:text-white transition">Internships</Link>
                         <a href="#" className="hover:text-white transition">Github</a>
-                        <a href="#" className="hover:text-white transition">Transparency</a>
+                        <Link href="/charter" className="hover:text-white transition">Charter</Link>
+                        <Link href="/privacy" className="hover:text-white transition">Privacy Policy</Link>
                     </div>
                     <div className="text-xs font-bold tracking-tighter uppercase">
                         Zyloris / <span className="text-blue-500">Project</span>
