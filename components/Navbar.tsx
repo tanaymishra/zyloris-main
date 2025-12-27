@@ -12,7 +12,7 @@ export default function Navbar() {
             </div>
             <div className="flex gap-4 md:gap-8 mono text-[10px] uppercase tracking-[0.2em] font-medium items-center">
                 <Link href="/internships" className="hidden md:block hover:text-blue-400 transition">Internships</Link>
-                <Link href="/#infrastructure" className="hidden md:block hover:text-blue-400 transition">Projects</Link>
+                <Link href="/labs" className="hidden md:block hover:text-blue-400 transition">Projects</Link>
                 <Link href="/contribute" className="px-4 py-2 border border-white/10 hover:bg-white hover:text-black transition">Contribute</Link>
             </div>
         </nav>
