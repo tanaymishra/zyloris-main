@@ -93,7 +93,7 @@ export const projects: Project[] = [
                 date: 'DEC 20 2025',
                 title: 'Project Sunsetting',
                 description: 'After evaluating the computational resources required for client-side rendering of complex strains, we decided not to proceed understanding the execution complexities. The code remains open source.',
-                blogLink: '#',
+                blogLink: '/blog/straincraft-sunsetting',
                 type: 'decision'
             },
             {
