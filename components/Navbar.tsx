@@ -8,7 +8,7 @@ export default function Navbar() {
                     <span>Node: 0x71A</span>
                 </div>
             </div>
-            <div className="flex gap-4 md:gap-8 mono text-[10px] uppercase tracking-[0.2em] font-medium">
+            <div className="flex gap-4 md:gap-8 mono text-[10px] uppercase tracking-[0.2em] font-medium items-center">
                 <a href="#foundations" className="hidden md:block hover:text-blue-400 transition">Foundations</a>
                 <a href="#infrastructure" className="hidden md:block hover:text-blue-400 transition">Infrastructure</a>
                 <a href="#" className="px-4 py-2 border border-white/10 hover:bg-white hover:text-black transition">Contribute</a>
