@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
+import { Logo } from '@/components/Logo';
+
 export default function Footer() {
     const pathname = usePathname();
     const isLabsPage = pathname?.startsWith('/labs');
@@ -27,8 +29,9 @@ export default function Footer() {
 
             <footer className="py-12 px-6 md:px-12 z-10 relative bg-surface">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8 md:gap-12">
-                    <div className="mono text-[10px] uppercase tracking-widest opacity-30 text-center md:text-left">
-                        &copy; 2025 Zyloris Project // CC BY-NC-SA 4.0
+                    <div className="flex items-center gap-4 mono text-[10px] uppercase tracking-widest opacity-30 text-center md:text-left">
+                        <Logo className="w-6 h-6" />
+                        <span>&copy; 2025 Zyloris Project // CC BY-NC-SA 4.0</span>
                     </div>
                     <div className="flex gap-6 md:gap-12 mono text-[10px] uppercase tracking-widest opacity-40">
                         <Link href="/internships" className="hover:text-white transition">Internships</Link>
