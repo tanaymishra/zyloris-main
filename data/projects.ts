@@ -54,8 +54,8 @@ export const projects: Project[] = [
         name: 'AUTHER',
         description: 'Identity Provider & SSO Infrastructure.',
         commencementDate: 'NOV 2023',
-        status: 'Beta',
-        currentPhase: 'Public Beta Testing',
+        status: 'Building',
+        currentPhase: 'Color Scheme & Theme Definition',
         problemSolved: 'Integrating secure authentication is tedious. Services like Auth0 and Clerk have aggressive pricing tiers that punish growth. Developers shouldn\'t have to pay to verify who their users are.',
         vision: 'A universal, drop-in identity layer. Auther provides enterprise-grade SSO, MFA, and user management for free, forever. No per-user pricing, just pure authentication infrastructure.',
         history: [
@@ -84,8 +84,8 @@ export const projects: Project[] = [
         name: 'STRAINCRAFT',
         description: 'Bio-Visualization & Molecular Modeling.',
         commencementDate: 'AUG 2024',
-        status: 'Abandoned',
-        currentPhase: 'Sunset / Archived',
+        status: 'Concept',
+        currentPhase: 'Problem Statement & Feasibility',
         problemSolved: 'Biological data is often trapped in spreadsheets or static 2D images. Researchers lack accessible tools to visualize complex strain interactions in 3D space without expensive specialized software.',
         vision: 'To create a "Google Earth for Biology" – an interactive, browser-based engine for rendering molecular structures and biological strain data in high fidelity.',
         history: [
@@ -117,8 +117,8 @@ export const projects: Project[] = [
         commencementDate: 'DEC 2024',
         status: 'Concept',
         currentPhase: 'Core Logic Implementation',
-        problemSolved: 'Most "free" PDF tools upload your sensitive documents to a server to process them. This is a massive privacy risk for contracts and medical records.',
-        vision: 'A zero-trust PDF editor that runs entirely in the browser via WebAssembly. Your files never leave your device. Split, merge, and sign PDFs with absolute privacy.',
+        problemSolved: 'Editors are either expensive or "freemium" with limits. Many lack support for complex scripts like Hindi. Privacy is also a concern as files are often uploaded to servers.',
+        vision: 'A truly free, unlimited, browser-based PDF editor. Zero uploads, complex script support (Hindi/Devanagari), and complete local processing via WebAssembly.',
         history: [
             {
                 date: 'DEC 25 2024',
