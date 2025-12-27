@@ -13,7 +13,7 @@ export default function Navbar() {
             <div className="flex gap-4 md:gap-8 mono text-[10px] uppercase tracking-[0.2em] font-medium items-center">
                 <Link href="/internships" className="hidden md:block hover:text-blue-400 transition">Internships</Link>
                 <Link href="/labs" className="hover:text-blue-400 transition">Labs</Link>
-                <Link href="/contribute" className="px-4 py-2 border border-white/10 hover:bg-white hover:text-black transition">Contribute</Link>
+                <Link href="/contribute" className="hidden md:block px-4 py-2 border border-white/10 hover:bg-white hover:text-black transition">Contribute</Link>
             </div>
         </nav>
     );
