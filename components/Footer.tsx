@@ -7,7 +7,7 @@ export default function Footer() {
                     <p className="text-lg md:text-xl font-medium opacity-60">Zyloris is not a company. It is a shared mission. We need developers, mathematicians, and architects who believe in the commons.</p>
                     <div className="flex flex-col md:flex-row justify-center gap-6">
                         <a href="#" className="px-12 py-6 bg-black text-white uppercase text-[10px] font-bold tracking-[0.3em] hover:scale-105 transition">Explore Labs</a>
-                        <a href="#" className="px-12 py-6 border border-black uppercase text-[10px] font-bold tracking-[0.3em] hover:bg-black hover:text-white transition">Network Status</a>
+                        <a href="/network-status" className="px-12 py-6 border border-black uppercase text-[10px] font-bold tracking-[0.3em] hover:bg-black hover:text-white transition">Network Status</a>
                     </div>
                 </div>
             </section>
@@ -18,7 +18,6 @@ export default function Footer() {
                         &copy; 2025 Zyloris Project // CC BY-NC-SA 4.0
                     </div>
                     <div className="flex gap-6 md:gap-12 mono text-[10px] uppercase tracking-widest opacity-40">
-                        <a href="#" className="hover:text-white transition">Whitepaper</a>
                         <a href="#" className="hover:text-white transition">Github</a>
                         <a href="#" className="hover:text-white transition">Transparency</a>
                     </div>
