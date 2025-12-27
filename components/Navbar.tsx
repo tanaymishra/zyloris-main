@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav className="fixed top-0 w-full z-50 mix-blend-difference px-6 py-8 flex justify-between items-center bg-black/50 backdrop-blur-sm md:bg-transparent md:backdrop-blur-0">
             <div className="flex items-center gap-12">
-                <span className="font-bold tracking-tighter text-xl uppercase">Zyloris</span>
+                <Link href="/" className="font-bold tracking-tighter text-xl uppercase">Zyloris</Link>
                 <div className="hidden md:flex items-center gap-6 mono text-[10px] uppercase tracking-widest opacity-40">
                     <span className="flex items-center"><span className="status-dot"></span> Protocol Active</span>
                     <span>Node: 0x71A</span>
