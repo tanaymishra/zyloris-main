@@ -20,6 +20,31 @@ export default function InternshipsPage() {
                     </p>
                 </div>
 
+                <div className="mb-12 p-6 border border-white/10 bg-white/5 space-y-4">
+                    <h3 className="mono text-xs uppercase tracking-[0.2em] font-bold text-blue-400 mb-4">The Agreement</h3>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div className="space-y-2">
+                            <h4 className="font-bold text-sm uppercase tracking-wide">Unpaid & Educational</h4>
+                            <p className="text-xs opacity-60 leading-relaxed">
+                                This is an unpaid position focused purely on high-level engineering and architectural learning. You will build real systems, not fetch coffee.
+                            </p>
+                        </div>
+                        <div className="space-y-2">
+                            <h4 className="font-bold text-sm uppercase tracking-wide">Certification</h4>
+                            <p className="text-xs opacity-60 leading-relaxed">
+                                Upon completion, you receive an official <span className="text-white">Internship Certificate</span>. Code shipped to production earns an additional <span className="text-white">Contributor Certificate</span>.
+                            </p>
+                        </div>
+                        <div className="space-y-2 md:col-span-2">
+                            <h4 className="font-bold text-sm uppercase tracking-wide">Future Priority</h4>
+                            <p className="text-xs opacity-60 leading-relaxed">
+                                Distinguished interns hold the <span className="text-white">Right of First Refusal</span> for all future paid positions if the protocol transitions to a commercial entity.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
                 <form className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div className="space-y-1">
