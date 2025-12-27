@@ -1,0 +1,94 @@
+/* Subtle Pixel Grid Background */
+.grid-overlay {
+    position: fixed;
+    inset: 0;
+    background-image: linear-gradient(var(--border) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.vignette {
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* Institutional Typography */
+.heading-xl {
+    font-size: clamp(3rem, 12vw, 14rem);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 0.85;
+    text-transform: uppercase;
+}
+
+.section-header {
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+}
+
+.reveal-mask {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+/* Status Indicator */
+.status-dot {
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+    box-shadow: 0 0 10px var(--accent);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.4;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.4;
+    }
+}
+
+/* Hover States for Serious Buttons */
+.btn-industrial {
+    border: 1px solid var(--border);
+    background: transparent;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-industrial:hover {
+    background: #fff;
+    color: #000;
+    border-color: #fff;
+}
+
+.line-growth {
+    transform-origin: left;
+    transform: scaleX(0);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .heading-xl {
+        font-size: clamp(2.5rem, 10vw, 5rem);
+    }
+
+    .grid-overlay {
+        background-size: 40px 40px;
+    }
+}
