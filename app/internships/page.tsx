@@ -39,7 +39,7 @@ export default function InternshipsPage() {
                         <div className="space-y-2 md:col-span-2">
                             <h4 className="font-bold text-sm uppercase tracking-wide">Future Priority</h4>
                             <p className="text-xs opacity-60 leading-relaxed">
-                                Distinguished interns hold the <span className="text-white">Right of First Refusal</span> for all future paid positions if the protocol transitions to a commercial entity.
+                                Distinguished interns hold the <span className="text-white">Right of First Application</span>. We strictly prioritize our own; you will be invited to apply for all commercial roles before they are released to the general public pool.
                             </p>
                         </div>
                     </div>
